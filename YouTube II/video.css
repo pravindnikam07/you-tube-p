@@ -1,0 +1,30 @@
+body{
+    background-color: black;
+}
+#video{
+    display: flex;
+    width: fit-content;
+    margin: 60px auto;
+    padding: 30px 40px 0 40px;
+    border-radius: 10px;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(245, 241, 241);
+}
+iframe{
+    display: block;
+}
+#video *{
+    width: 560px;
+}
+#home{
+    text-align: center;
+}
+button{
+    padding: 10px 15px;
+    border-radius: 6px;
+    font-size: 22px;
+    border: none;
+    color: white;
+    background-color: goldenrod;
+}

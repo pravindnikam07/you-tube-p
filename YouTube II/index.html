@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>You Tube MIni--> PTube</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/63ed2a64a9.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="search">
+        <a href="index.html"><img onclick="main()" id="ytImg" src="https://cdn.pixabay.com/photo/2015/09/21/23/18/youtube-950900_960_720.png" alt=""></a>
+        <div>
+            <input id="query" oninput="debounceFunction(main,600)" type="text" placeholder="Search">
+            <button onclick="main()"><i class="fa-solid fa-magnifying-glass"></i></button>
+            <button><i class="fa-solid fa-microphone"></i></button>
+        </div>
+    </div>
+    <div id="results"></div>
+</body>
+</html>
+<script src="index.js"></script>
